@@ -1,0 +1,270 @@
+{
+  "table1": [
+    {
+      "第1列": "组件​",
+      "第2列": "描述​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/basic-content/text",
+      "第1列": "text 文本​",
+      "第2列": "文本组件。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/basic-content/rich-text",
+      "第1列": "rich-text 富文本​",
+      "第2列": "富文本组件。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/basic-content/progress",
+      "第1列": "progress 进度条​",
+      "第2列": "进度条。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/basic-content/icon",
+      "第1列": "icon 图标​",
+      "第2列": "图标。​"
+    }
+  ],
+  "table2": [
+    {
+      "第1列": "组件​",
+      "第2列": "描述​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/view",
+      "第1列": "view 视图容器​",
+      "第2列": "视图容器，相当于 html 中的 div 。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/scroll-view",
+      "第1列": "scroll-view 可滚动视图区域​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/view/ttss",
+      "第2列": "可滚动视图区域，可实现横向滚动和竖向滚动。使用竖向滚动时，需要给定一个固定高度，可以通过 ttss 来设置 height。组件属性的长度单位支持 px 和 rpx。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/swiper",
+      "第1列": "swiper 滑块视图容器​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/swiper-item",
+      "第2列": "滑块视图容器。内部只允许使用 swiper-item 组件来描述具体滑块内容，否则会导致未定义的行为。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/swiper-item",
+      "第1列": "swiper-item​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/swiper",
+      "第2列": "滑块视图容器子项，仅可放置在 swiper 组件中，宽高自动设置为 100%。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/movable-area",
+      "第1列": "movable-area 可移动视图区域​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/movable-view",
+      "第2列": "movable-view 的可移动区域。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/movable-view",
+      "第1列": "movable-view 可移动视图容器​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/movable-area",
+      "第2列": "可移动的视图容器，在页面中可以拖拽滑动。movable-view 必须在 movable-area 组件中，并且必须是直接子节点，否则不能移动。​"
+    }
+  ],
+  "table3": [
+    {
+      "第1列": "组件​",
+      "第2列": "描述​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/button",
+      "第1列": "button 按钮​",
+      "第2列": "按钮，用于强调操作并引导用户去点击。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/checkbox",
+      "第1列": "checkbox 多选选择器​",
+      "第2列": "多选项目。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/checkbox-group",
+      "第1列": "checkbox-group 多项选择器​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/checkbox/",
+      "第2列": "多项选择器组，内部由多个 checkbox 组成。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/form",
+      "第1列": "form 表单​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/textarea",
+      "第2列": "表单，将组件内的用户输入的 switch、input、checkbox、slider、radio、picker 、textarea 提交。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/input",
+      "第1列": "input 输入框​",
+      "第2列": "输入框组件，用于键盘交互。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/label",
+      "第1列": "label 表单组件标签​",
+      "第2列": "用于改进表单组件的可用性。可使用 for 属性找到对应组件的 id，或者将组件放在该标签下。当点击时，就会触发对应的组件。for 优先级高于内部组件，内部有多个组件的时候默认触发第一个组件。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/picker",
+      "第1列": "picker 底部弹起的滚动选择器​",
+      "第2列": "从底部弹起的滚动选择器，现支持五种选择器，通过 mode 属性来设置，分别是 selector 普通选择器，multiSelector 多列选择器，time 时间选择器，date 日期选择器，region 省市区选择器，默认是 selector 普通选择器。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/picker-view",
+      "第1列": "picker-view 嵌入页面的滚动选择器​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/picker-view-column/",
+      "第2列": "picker-view 是嵌入页面的滚动选择器。子组件必须是 picker-view-column。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/picker-view-column",
+      "第1列": "picker-view-column 嵌入页面的滚动选择器子项​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/picker-view",
+      "第2列": "滚动列，需要配合 picker-view 组件使用，作为 picker-view 其中的一列， 其高度会自动设置成与 picker-view 的高度保持一致。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/radio",
+      "第1列": "radio 单选项目​",
+      "第2列": "单项选择器。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/radio-group",
+      "第1列": "radio-group 单向选择器​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/radio",
+      "第2列": "单项选择器，内部由多个 radio 组成。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/slider",
+      "第1列": "slider 滑动选择器​",
+      "第2列": "滑动选择器。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/switch",
+      "第1列": "switch 开关选择器​",
+      "第2列": "开关选择器。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/list/textarea",
+      "第1列": "textarea 多行文本输入框​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/native-components",
+      "第2列": "多行文本输入框。该组件是原生组件，支持同层渲染。​"
+    }
+  ],
+  "table4": [
+    {
+      "第1列": "组件​",
+      "第2列": "描述​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/navigation/navigator",
+      "第1列": "navigator 页面链接​",
+      "第2列": "页面链接，控制小程序的跳转。navigator子节点的背景色应为透明色。​"
+    }
+  ],
+  "table5": [
+    {
+      "第1列": "组件​",
+      "第2列": "描述​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/media-component/image",
+      "第1列": "image 图片​",
+      "第2列": "图片。支持 JPG、PNG、SVG、WEBP、GIF 等格式。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/media-component/video",
+      "第1列": "video 视频​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/media-component/video",
+      "第2列": "视频组件。相关 API 请参考 tt.createVideoContext。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/media-component/live-preview",
+      "第1列": "live-preveiw直播预览流组件​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/basic-capacities/live-status-component",
+      "第2列": "组件包含两个区域：头部区域以及直播预览流区域。​\n使用该功能前开发者需要去开发者后台为对应的抖音号申请直播预览流组件能力，详情见引导跳转到直播间能力​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/media-component/camera",
+      "第1列": "camera 相机​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/tt-create-camera-context",
+      "第2列": "相机组件。该组件为原生组件。通过 tt.createCameraContext 可以获取相机上下文操作相机。​"
+    }
+  ],
+  "table6": [
+    {
+      "第1列": "组件​",
+      "第2列": "描述​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/canvas/canvas",
+      "第1列": "canvas 画布​",
+      "第2列": "画布。可使用 JS 操作 Canvas 上下文进行绘制。​"
+    }
+  ],
+  "table7": [
+    {
+      "第1列": "组件​",
+      "第2列": "描述​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/map/map",
+      "第1列": "map 地图​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/tt-create-map-context",
+      "第2列": "地图组件。相关 API tt.createMapContext。​"
+    }
+  ],
+  "table8": [
+    {
+      "第1列": "组件​",
+      "第2列": "描述​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/web-view",
+      "第1列": "web-view 网页容器​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/web-view/#%E4%BD%BF%E7%94%A8-web-view-%E6%89%93%E5%BC%80%E9%99%90%E5%AE%9A%E5%9F%9F%E5%90%8D%E5%86%85%E7%9A%84%E7%BD%91%E9%A1%B5",
+      "第2列": "该组件是一个用于承载网页的容器，将 H5 切入到小程序内部，铺满整个页面。​\n使用该组件要进行业务域名配置，仅支持添加开发者可控制(能放置校验文件到域名根目录)的域名。个人类型的小程序暂不支持使用。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/ad",
+      "第1列": "ad 广告​",
+      "第2列": "广告组件。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/open-data",
+      "第1列": "open-data 开放数据​",
+      "第2列": "用于展示字节生态开放数据。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/aweme-data",
+      "第1列": "aweme-data 直播间状态组件​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/basic-capacities/live-status-component",
+      "第2列": "直播间状态组件。​\n使用该功能前开发者需要去开发者后台为对应的抖音号申请 直播呼吸灯组件 能力，详情见引导跳转到直播间能力​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/button-im-customer-service",
+      "第1列": "button组件IM客服能力​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/functional-plug-in/customer-service/1",
+      "第2列": "支持小程序拉起 IM 客服能力，需要将 button 组件 open-type 的值设置为 im，详见抖音 IM 客服。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/button-platform-im",
+      "第1列": "button组件平台客服能力​",
+      "第2列": "支持小程序拉起平台能力，需要将 button 组件 open-type 的值设置为 platformIm。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/button-navigate-to-video-view",
+      "第1列": "button组件跳转视频播放页​",
+      "第2列": "支持小程序跳转到视频播放页，需要将 button 组件 open-type 的值设置为 navigateToVideoView。​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/button-open-aweme-user-profile",
+      "第1列": "button组件跳转抖音个人号主页​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/operation/focus-on-douyin-account/",
+      "第2列": "支持小程序跳转抖音号个人页，需要将 button 组件 open-type 的值设置为 openAwemeUserProfile。​\n使用该功能前开发者需要至开发者后台-设置-关联设置-抖音号管理为对应的抖音号申请 跳转抖音号个人页能力，具体信息请参考关注抖音号​"
+    },
+    {
+      "组件详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/button-open-webcast-room",
+      "第1列": "button组件跳转直播间​",
+      "组件描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/operation/focus-on-douyin-account/",
+      "第2列": "支持小程序打开直播间，需要将 button 组件 open-type 的值设置为 openWebcastRoom。​\n使用该功能前开发者需要至开发者后台-设置-关联设置-抖音号管理为对应的抖音号申请跳转抖音直播间能力，并在能力-直播间基础中申请该能力，具体信息请参考引导跳转到直播间​"
+    }
+  ]
+}

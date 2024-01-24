@@ -1,0 +1,2795 @@
+{
+  "table1": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/tt-can-i-use",
+      "第1列": "tt.canIUse​",
+      "第2列": "判断小程序的 API、回调、参数、组件等是否在当前版本可用。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/tt-base-64-to-array-buffer",
+      "第1列": "tt.base64ToArrayBuffer​",
+      "API描述链接1": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+      "第2列": "将 base64 字符串转成 arraybuffer 对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/tt-array-buffer-to-base-64",
+      "第1列": "tt.arrayBufferToBase64​",
+      "API描述链接1": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+      "第2列": "将 arraybuffer 对象转成 base64 字符串。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/tt-can-i-put-stuff-over-component",
+      "第1列": "tt.canIPutStuffOverComponent​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/open-capacity/ad/",
+      "第2列": "小程序中的一些组件是由客户端实现的，如 video、ad 等。如果开发者希望通过 css 等途径往这些组件的上方放置一些其他组件，是需要小程序所在 App 具备一定能力才可以实现的。​"
+    }
+  ],
+  "table2": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/lifecycle/tt-get-enter-options-sync",
+      "第1列": "tt.getEnterOptionsSync​",
+      "第2列": "获取本次小程序启动时的参数。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/lifecycle/tt-get-launch-options-sync",
+      "第1列": "tt.getLaunchOptionsSync​",
+      "第2列": "获取小程序冷启动时的参数，其值与 App.onLaunch 方法传入的参数一致，并且不会随着小程序使用而发生变化。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/lifecycle/tt-exit-mini-program",
+      "第1列": "tt.exitMiniProgram​",
+      "第2列": "退出当前小程序到后台。​"
+    }
+  ],
+  "table3": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/update/tt-get-update-manager",
+      "第1列": "tt.getUpdateManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/mini-app-runtime/mechanism",
+      "第2列": "获取全局唯一的版本更新管理器 updateManager 实例，用于管理小程序更新。关于小程序更新的原理，可以查看小程序运行机制。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/update/update-manager/update-manager",
+      "第1列": "UpdateManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/update/tt-get-update-manager",
+      "第2列": "通过 tt.getUpdateManager 获取的小程序版本更新管理器对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/update/update-manager/update-manager-on-check-for-update",
+      "第1列": "UpdateManager.onCheckForUpdate​",
+      "第2列": "当向字节小程序后台请求完新版本信息，此函数被调用。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/update/update-manager/update-manager-on-update-ready",
+      "第1列": "UpdateManager.onUpdateReady​",
+      "第2列": "当新版本下载完成，会进行回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/update/update-manager/update-manager-on-update-failed",
+      "第1列": "UpdateManager.onUpdateFailed​",
+      "第2列": "小程序冷启动后，如果有更新版本，客户端会触发新版本下载，当新版本下载失败（比如网络错误），会进行回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/update/update-manager/update-manager-apply-update",
+      "第1列": "UpdateManager.applyUpdate​",
+      "第2列": "当小程序新版本下载完成（即收到 onUpdateReady 回调）时，调用该方法会强制应用新版本并重启。​"
+    }
+  ],
+  "table4": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/timer/setTimeout",
+      "第1列": "setTimeout​",
+      "第2列": "设置一个定时器，在一定延时后触发回调函数。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/timer/clearTimeout",
+      "第1列": "clearTimeout​",
+      "第2列": "清除一个定时器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/timer/setInterval",
+      "第1列": "setInterval​",
+      "第2列": "设定一个定时器。按照指定的周期（以毫秒计）来执行注册的回调函数。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/timer/clearInterval",
+      "第1列": "clearInterval​",
+      "第2列": "清除一个定时器。​"
+    }
+  ],
+  "table5": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-on-app-show",
+      "第1列": "tt.onAppShow​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/logic-layer/start-app",
+      "第2列": "监听小程序切前台事件，该事件回调参数与 App.onShow 一致。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-off-app-show",
+      "第1列": "tt.offAppShow​",
+      "第2列": "取消监听小程序进前台事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-on-app-hide",
+      "第1列": "tt.onAppHide​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/logic-layer/start-app",
+      "第2列": "监听小程序切后台事件，该事件回调参数与 App.onHide 一致。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-off-app-hide",
+      "第1列": "tt.offAppHide​",
+      "第2列": "取消监听小程序切后台事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-off-unhandled-rejection",
+      "第1列": "tt.offUnhandledRejection​",
+      "第2列": "取消监听未处理的 Promise 拒绝事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-on-error",
+      "第1列": "tt.onError​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/logic-layer/start-app",
+      "第2列": "监听小程序错误事件，如脚本错误或 API 调用报错等。该事件与 App.onError 获取的小程序版本更新管理器对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-off-error",
+      "第1列": "tt.offError​",
+      "第2列": "取消监听小程序错误事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-on-unhandled-rejection",
+      "第1列": "tt.onUnhandledRejection​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/logic-layer/start-app",
+      "第2列": "监听未处理的 Promise 拒绝事件。该事件与 App.onUnhandledRejection 的回调时机与参数一致。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-on-lazy-load-error",
+      "第1列": "tt.onLazyLoadError​",
+      "第2列": "监听小程序异步组件加载失败事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/tt-off-lazy-load-error",
+      "第1列": "tt.offLazyLoadError​",
+      "第2列": "移除小程序异步组件加载失败事件的监听函数。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/on-app-launch",
+      "第1列": "tt.onAppLaunch​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/logic-layer/start-app/#_onlaunch-%E5%8F%82%E6%95%B0",
+      "第2列": "监听小程序启动事件。该事件与 App.onLaunch 的回调时机与参数一致。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/off-app-launch",
+      "第1列": "tt.offAppLaunch​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/event/on-app-launch",
+      "第2列": "取消监听小程序启动事件。​"
+    }
+  ],
+  "table6": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/env/get-env-info-sync",
+      "第1列": "tt.getEnvInfoSync​",
+      "第2列": "获取小程序环境信息。​"
+    }
+  ],
+  "table7": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-create-observer",
+      "第1列": "tt.performance.createObserver​",
+      "第2列": "创建全局性能事件监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-set-buffer-size",
+      "第1列": "tt.performance.setBufferSize​",
+      "第2列": "设置当前缓冲区中可缓存的页面的性能数据的页面数，默认缓存 10 个页面的数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-get-entries",
+      "第1列": "tt.performance.getEntries​",
+      "第2列": "该方法返回当前缓冲区中的所有性能数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-get-entries-by-name",
+      "第1列": "tt.performance.getEntriesByName​",
+      "第2列": "获取当前缓冲区中所有名称为 [name] 且类型为 [entryType] 的性能数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-get-entries-by-type",
+      "第1列": "tt.performance.getEntriesByType​",
+      "第2列": "获取当前缓冲区中所有类型为 [entryType] 的性能数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-get-current-page-entries",
+      "第1列": "tt.performance.getCurrentPageEntries​",
+      "第2列": "获取当前缓冲区中当前页面的性能数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-get-entries-by-page",
+      "第1列": "tt.performance.getEntriesByPage​",
+      "第2列": "获取当前缓冲区中页面路径为 [pagePath] 的性能数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-mark",
+      "第1列": "tt.performance.mark​",
+      "第2列": "在性能缓冲区中使用给定名称添加一个 name 为 [name] 的性能数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/tt-performance-clear-marks",
+      "第1列": "tt.performance.clearMarks​",
+      "第2列": "清空性能缓冲区中 name 为 [name] 的自定义性能数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/performance/tt-performance/performance-entry",
+      "第1列": "PerformanceEntry​",
+      "第2列": "性能数据的实例。​"
+    }
+  ],
+  "table8": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/worker/tt-create-worker",
+      "第1列": "tt.createWorker​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/worker/worker/worker-terminate",
+      "第2列": "创建一个 Worker 线程，目前限制最多只能创建一个 Worker，创建下一个 Worker 前请调用 Worker.terminate() 销毁当前 Worker 实例​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/worker/worker/worker",
+      "第1列": "Worker​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/worker/tt-create-worker",
+      "第2列": "通过在主线程调用 tt.createWorker 创建/Worker 线程内置的实例，可以实现主线程和 Worker 线程之间的通信。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/worker/worker/worker-on-message",
+      "第1列": "Worker.onMessage​",
+      "第2列": "监听接收主线程/Worker 线程向当前线程发送的消息，支持在主线程/Worker 线程内调用​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/worker/worker/worker-post-message",
+      "第1列": "Worker.postMessage​",
+      "第2列": "向主线程/Worker 线程发送消息，支持在主线程/Worker 线程内调用。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/worker/worker/worker-terminate",
+      "第1列": "Worker.terminate​",
+      "第2列": "结束当前 Worker 线程，仅限在主线程 Worker 对象上调用。​\n​"
+    }
+  ],
+  "table9": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/size/tt-on-window-resize",
+      "第1列": "tt.onWindowResize​",
+      "第2列": "监听窗口尺寸变化事件，仅 Andriod 支持。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/foundation/size/tt-off-window-resize",
+      "第1列": "tt.offWindowResize​",
+      "第2列": "取消监听窗口尺寸变化事件，仅 Android 支持。​"
+    }
+  ],
+  "table10": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/request-task/request-task",
+      "第1列": "RequestTask​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/tt-request/",
+      "第2列": "通过 tt.request 获取的实例，能够控制网络请求任务。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/request-task/abort",
+      "第1列": "RequestTask.abort​",
+      "第2列": "中断请求任务。其中 RequestTask 是通过 tt.request() 返回的对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/tt-download-file",
+      "第1列": "tt.downloadFile​",
+      "第2列": "下载文件资源到本地。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/tt-request",
+      "第1列": "tt.request​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/guide/basic-ability/network",
+      "第2列": "发起 HTTPS 网络请求。网络相关的 API 在使用前需要配置域名白名单。请参考网络请求。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/upload-task/upload-task",
+      "第1列": "UploadTask​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/tt-upload-file/",
+      "第2列": "通过 tt.uploadFile 获取的实例，能够控制网络上传任务。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/upload-task/abort",
+      "第1列": "UploadTask.abort​",
+      "第2列": "中断上传任务。其中 UploadTask 是通过 tt.uploadFile() 返回的对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/upload-task/on-progress-update",
+      "第1列": "UploadTask.onProgressUpdate​",
+      "第2列": "监听上传进度变化事件，其中 UploadTask 是 tt.uploadFile() 返回的对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/upload-task/off-progress-update",
+      "第1列": "UploadTask.offProgressUpdate​",
+      "第2列": "取消监听上传进度变化事件，其中 UploadTask 是通过 tt.uploadFile() 返回的对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/download-task/download-task",
+      "第1列": "DownloadTask​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/tt-download-file/",
+      "第2列": "通过 tt.downloadFile 获取的实例，能够控制网络下载任务。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/download-task/abort",
+      "第1列": "DownloadTask.abort​",
+      "第2列": "中断下载任务。其中 DownloadTask 是通过 tt.downloadFile() 返回的对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/download-task/on-progress-update",
+      "第1列": "DownloadTask.onProgressUpdate​",
+      "第2列": "监听下载进度变化事件，其中 DownloadTask 是 tt.downloadFile() 返回的对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/download-task/off-progress-update",
+      "第1列": "DownloadTask.offProgressUpdate​",
+      "第2列": "取消监听下载进度变化事件，其中 DownloadTask 是通过 tt.downloadFile() 返回的对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/http/tt-upload-file",
+      "第1列": "tt.uploadFile​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/guide/basic-ability/network",
+      "第2列": "将本地资源上传到服务器。客户端发起一个 HTTPS POST 请求，其中 content-type 为 multipart/form-data。网络相关的 API 在使用前需要配置域名白名单。请参考网络请求。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/tt-connect-socket",
+      "第1列": "tt.connectSocket​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/guide/basic-ability/network",
+      "第2列": "创建一个 WebSocket 连接实例，并通过返回的 socketTask 操作该连接。网络相关的 API 在使用前需要配置域名白名单。请参考网络请求。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/socket-task/socket-task",
+      "第1列": "SocketTask​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/tt-connect-socket/",
+      "第2列": "通过 tt.connectSocket 获取的 WebSocket 任务实例。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/socket-task/socket-task-send",
+      "第1列": "SocketTask.send​",
+      "第2列": "WebSocket 发送给服务端数据的方法。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/socket-task/socket-task-close",
+      "第1列": "SocketTask.close​",
+      "第2列": "关闭 WebSocket 连接的方法。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/socket-task/socket-task-on-open",
+      "第1列": "SocketTask.onOpen​",
+      "第2列": "监听 WebSocket 连接服务器成功的事件。表示 WebSocket 的状态变成 open，可以发送数据给服务器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/socket-task/socket-task-on-close",
+      "第1列": "SocketTask.onClose​",
+      "第2列": "监听 WebSocket 与服务器连接断开的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/socket-task/socket-task-on-message",
+      "第1列": "SocketTask.onMessage​",
+      "第2列": "监听 WebSocket 接收到服务器发送信息的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/network/web-socket/socket-task/socket-task-on-error",
+      "第1列": "SocketTask.onError​",
+      "第2列": "监听 WebSocket 发生错误的事件。​"
+    }
+  ],
+  "table11": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/picture/tt-choose-image",
+      "第1列": "tt.chooseImage​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/other/user-authorization",
+      "第2列": "从系统相册中选择图片，或使用相机拍摄图片，选取成功后将存入本地临时文件，并在 success 回调中返回相应路径列表。该 API 需要用户授权方可调用，详细信息可参考用户授权。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/picture/tt-save-image-to-photos-album",
+      "第1列": "tt.saveImageToPhotosAlbum​",
+      "第2列": "保存图片到系统相册。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/picture/tt-preview-image",
+      "第1列": "tt.previewImage​",
+      "第2列": "预览一组图片。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/picture/tt-get-image-info",
+      "第1列": "tt.getImageInfo​",
+      "第2列": "获取图片信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/picture/tt-compress-image",
+      "第1列": "tt.compressImage​",
+      "第2列": "压缩图片接口，可选压缩质量，并可以产出压缩后的图片到本地临时文件。仅对 jpg 格式图片有效。​"
+    }
+  ],
+  "table12": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/tt-get-recorder-manager",
+      "第1列": "tt.getRecorderManager​",
+      "第2列": "获取全局唯一的 recorderManager。通过 recorderManager 进行录音操作和管理。该 api 多次调用时返回的是同一个实例，在多页面使用时，会操作到同一个上下文对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager",
+      "第1列": "RecorderManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/tt-get-recorder-manager/",
+      "第2列": "通过 tt.getRecorderManager 获取的全局唯一的录音管理器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-pause",
+      "第1列": "RecorderManager.pause​",
+      "第2列": "暂停录音。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-start",
+      "第1列": "RecorderManager.start​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/other/user-authorization/",
+      "第2列": "开始录音。该方法需要用户授权方可调用，详细信息可参考用户授权。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-resume",
+      "第1列": "RecorderManager.resume​",
+      "第2列": "继续录音。在调用暂停录音之后，可以调用 resume 继续录音，继续录音的内容会拼接到上一次暂停录音之后。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-stop",
+      "第1列": "RecorderManager.stop​",
+      "第2列": "停止录音。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-on-pause",
+      "第1列": "RecorderManager.onPause​",
+      "第2列": "监听录音暂停事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-on-stop",
+      "第1列": "RecorderManager.onStop​",
+      "第2列": "监听录音结束事件，成功时回调录音文件临时路径。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-on-start",
+      "第1列": "RecorderManager.onStart​",
+      "第2列": "监听录音开始事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-on-error",
+      "第1列": "RecorderManager.onError​",
+      "第2列": "监听录音错误事件，录音出错时回调错误信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-on-resume",
+      "第1列": "RecorderManager.onResume​",
+      "第2列": "监听录音继续事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/record/recorder-manager/recorder-manager-on-frame-recorded",
+      "第1列": "RecorderManager.onFrameRecorded​",
+      "第2列": "监听已录制完指定帧大小的文件事件。如果设置了 frameSize，则会回调此事件，不设置则没有此回调。​"
+    }
+  ],
+  "table13": [
+    {
+      "第1列": "​",
+      "第2列": "​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/tt-get-background-audio-manager",
+      "第1列": "tt.getBackgroundAudioManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager",
+      "第2列": "获取全局唯一的背景音频管理器 BackgroundAudioManager。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager",
+      "第1列": "BackgroundAudioManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/tt-get-background-audio-manager/",
+      "第2列": "BackgroundAudioManager 实例。可通过 tt.getBackgroundAudioManager  接口获取，通过它能够操作背景音频播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/background-audio-manager-play",
+      "第1列": "BackgroundAudioManager.play​",
+      "第2列": "播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.pause",
+      "第1列": "BackgroundAudioManager.pause​",
+      "第2列": "暂停播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.stop",
+      "第1列": "BackgroundAudioManager.stop​",
+      "第2列": "停止播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.seek",
+      "第1列": "BackgroundAudioManager.seek​",
+      "第2列": "当前音频跳转到指定位置，并开始播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onCanplay",
+      "第1列": "BackgroundAudioManager.onCanplay​",
+      "第2列": "监听音频进入可以播放状态，此时文件资源的元信息解析完成，但不保证后面可以流畅播放，具体可播放时机取决于播放器的实现。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onPlay",
+      "第1列": "BackgroundAudioManager.onPlay​",
+      "第2列": "监听背景音频播放事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onPause",
+      "第1列": "BackgroundAudioManager.onPause​",
+      "第2列": "监听音频暂停事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onStop",
+      "第1列": "BackgroundAudioManager.onStop​",
+      "第2列": "监听音频停止事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onEnded",
+      "第1列": "BackgroundAudioManager.onEnded​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.seek",
+      "第2列": "监听音频停止事件。触发时机：调用 seek 跳转到音频结尾，或自动播放结束。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onTimeUpdate",
+      "第1列": "BackgroundAudioManager.onTimeUpdate​",
+      "第2列": "监听音频进度更新事件，回调执行时机为音频开始播放时，状态更新间隔约为 250ms，暂停或停止播放时音频进度也停止更新。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onError",
+      "第1列": "BackgroundAudioManager.onError​",
+      "第2列": "监听音频播放错误事件。包括设置的属性类型不合法，API 调用过程中错误等。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onWaiting",
+      "第1列": "BackgroundAudioManager.onWaiting​",
+      "第2列": "监听加载中事件，当音频因为数据不足，需要停下来加载时会触发，音频开始播放后需要停下来加载资源时也会触发，此时首先会暂停播放，待资源加载完成后继续播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onSeeked",
+      "第1列": "BackgroundAudioManager.onSeeked​",
+      "第2列": "监听背景音频完成跳转操作事件。仅 Android 支持。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onNext",
+      "第1列": "BackgroundAudioManager.onNext​",
+      "第2列": "监听用户在系统音乐播放面板点击下一曲事件（暂仅支持 iOS）。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onSeeking",
+      "第1列": "BackgroundAudioManager.onSeeking​",
+      "第2列": "监听背景音频开始跳转操作事件。若存在多次添加监听，只触发最后一个监听事件的回调。仅 Android 支持。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.onPrev",
+      "第1列": "BackgroundAudioManager.onPrev​",
+      "第2列": "监听用户在系统音乐播放面板点击上一曲事件（暂仅支持 iOS）。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/background-audio-manager/BackgroundAudioManager.offTimeUpdate",
+      "第1列": "BackgroundAudioManager.offTimeUpdate​",
+      "第2列": "取消监听 timeUpdate 事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/tt-create-inner-audio-context",
+      "第1列": "tt.createInnerAudioContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/overview",
+      "第2列": "创建并返回内部 audio 上下文 innerAudioContext 实例，通过它能够操作音频播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/overview",
+      "第1列": "InnerAudioContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/tt-create-inner-audio-context/",
+      "第2列": "通过 tt.createInnerAudioContext 获取的实例，通过它能够操作音频播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-play",
+      "第1列": "InnerAudioContext.play​",
+      "第2列": "播放音频。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-pause",
+      "第1列": "InnerAudioContext.pause​",
+      "第2列": "暂停播放。暂停后再次播放时基于此状态继续播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-stop",
+      "第1列": "InnerAudioContext.stop​",
+      "第2列": "停止播放。停止后再次播放时从头开始播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-seek",
+      "第1列": "InnerAudioContext.seek​",
+      "第2列": "跳转到指定位置播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-destroy",
+      "第1列": "InnerAudioContext.destroy​",
+      "第2列": "销毁当前实例。销毁后该实例将不存在，如需播放需要再次创建。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-canplay",
+      "第1列": "InnerAudioContext.onCanplay​",
+      "第2列": "监听音频进入可以播放状态，但不保证后面可以流畅播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-canplay",
+      "第1列": "InnerAudioContext.offCanplay​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-canplay",
+      "第2列": "取消 InnerAudioContext.onCanplay 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-play",
+      "第1列": "InnerAudioContext.onPlay​",
+      "第2列": "监听音频播放事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-pause",
+      "第1列": "InnerAudioContext.onPause​",
+      "第2列": "监听音频暂停事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-ended",
+      "第1列": "InnerAudioContext.onEnded​",
+      "第2列": "监听音频自然播放结束事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-time-update",
+      "第1列": "InnerAudioContext.onTimeUpdate​",
+      "第2列": "监听音频进度更新事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-error",
+      "第1列": "InnerAudioContext.onError​",
+      "第2列": "监听音频播放错误事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-waiting",
+      "第1列": "InnerAudioContext.onWaiting​",
+      "第2列": "监听音频加载中事件，当音频因为数据不足，需要停下来加载时会触发。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-seeking",
+      "第1列": "InnerAudioContext.onSeeking​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-seek",
+      "第2列": "监听音频开始进行 seek 操作的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-seeked",
+      "第1列": "InnerAudioContext.onSeeked​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-seek",
+      "第2列": "监听音频完成 seek 操作的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-play",
+      "第1列": "InnerAudioContext.offPlay​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-play",
+      "第2列": "取消 InnerAudioContext.onPlay 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-pause",
+      "第1列": "InnerAudioContext.offPause​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-pause",
+      "第2列": "取消 InnerAudioContext.onPause 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-stop",
+      "第1列": "InnerAudioContext.offStop​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-stop",
+      "第2列": "取消 InnerAudioContext.onStop 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-ended",
+      "第1列": "InnerAudioContext.offEnded​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-ended",
+      "第2列": "取消 InnerAudioContext.onEnded 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-time-update",
+      "第1列": "InnerAudioContext.offTimeUpdate​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-time-update",
+      "第2列": "取消 InnerAudioContext.onTimeUpdate 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-error",
+      "第1列": "InnerAudioContext.offError​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-error",
+      "第2列": "取消 InnerAudioContext.onError 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-waiting",
+      "第1列": "InnerAudioContext.offWaiting​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-waiting",
+      "第2列": "取消 InnerAudioContext.onWaiting 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-seeking",
+      "第1列": "InnerAudioContext. offSeeking​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-seeking",
+      "第2列": "取消 InnerAudioContext.onSeeking 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-off-seeked",
+      "第1列": "InnerAudioContext.offSeeked​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-seeked",
+      "第2列": "取消 InnerAudioContext.onSeeked 监听的事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/audio/inner-audio-context/inner-audio-context-on-stop",
+      "第1列": "InnerAudioContext.onStop​",
+      "第2列": "监听音频停止播放事件。​"
+    }
+  ],
+  "table14": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/tt-choose-video",
+      "第1列": "tt.chooseVideo​",
+      "第2列": "从系统相册中选择视频，或使用相机拍摄视频，返回视频的临时文件路径。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/tt-save-video-to-photos-album",
+      "第1列": "tt.saveVideoToPhotosAlbum​",
+      "第2列": "保存视频到系统相册。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/tt-preload-video",
+      "第1列": "tt.preloadVideo​",
+      "第2列": "创建视频预加载任务。预加载成功后的视频资源生效区间为整个小程序。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/preload-video-task/overview",
+      "第1列": "PreloadVideoTask​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/tt-preload-video",
+      "第2列": "通过 tt.preloadVideo 实例，通过它能够操作音频播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/preload-video-task/preload-video-task-abort",
+      "第1列": "PreloadVideoTask.abort​",
+      "第2列": "中断视频预加载任务。预加载成功后执行该操作不生效。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/tt-choose-media",
+      "第1列": "tt.chooseMedia​",
+      "第2列": "调用该 API 拍摄或从手机相册中选择图片或视频。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/tt-create-video-context",
+      "第1列": "tt.createVideoContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/overview",
+      "第2列": "根据组件 ID 创建可以控制组件的上下文 VideoContext 对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-play",
+      "第1列": "VideoContext.play​",
+      "第2列": "播放视频。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-pause",
+      "第1列": "VideoContext.pause​",
+      "第2列": "暂停视频。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-stop",
+      "第1列": "VideoContext.stop​",
+      "第2列": "停止视频播放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-request-full-screen",
+      "第1列": "VideoContext.requestFullScreen​",
+      "第2列": "进入全屏。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-seek",
+      "第1列": "VideoContext.seek​",
+      "第2列": "视频点播。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-exit-full-screen",
+      "第1列": "VideoContext.exitFullScreen​",
+      "第2列": "退出全屏。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-set-water-mark",
+      "第1列": "VideoContext.setWaterMark​",
+      "第2列": "设置普通水印，目前仅抖音支持，展示的水印内容为抖音 id，水印会铺满整个视频容器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-get-media-volume",
+      "第1列": "VideoContext.getMediaVolume​",
+      "第2列": "获取音量。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-set-media-volume",
+      "第1列": "VideoContext.setMediaVolume​",
+      "第2列": "设置音量。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/video/video-context/video-context-playback-rate",
+      "第1列": "VideoContext.playbackRate​",
+      "第2列": "设置倍速播放。​"
+    }
+  ],
+  "table15": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/tt-create-camera-context",
+      "第1列": "tt.createCameraContext​",
+      "第2列": "创建并返回 camera 上下文 CameraContext 对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-context/camera-context-on-camera-frame",
+      "第1列": "CameraContext.onCameraFrame​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-frame-listener/camera-frame-listener/",
+      "第2列": "获取 Camera 实时帧数据，返回监听器 CameraFrameListener。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-context/camera-context-set-zoom",
+      "第1列": "CameraContext.setZoom​",
+      "第2列": "设置 Camera 缩放级别。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-context/camera-context-take-photo",
+      "第1列": "CameraContext.takePhoto​",
+      "第2列": "拍摄照片。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-context/camera-context-start-record",
+      "第1列": "CameraContext.startRecord​",
+      "第2列": "开始录像。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-context/camera-context-stop-record",
+      "第1列": "CameraContext.stopRecord​",
+      "第2列": "结束录像。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-frame-listener/camera-frame-listener/",
+      "第1列": "CameraFrameListener​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-context/camera-context-on-camera-frame",
+      "第2列": "CameraContext.onCameraFrame() 返回的监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-frame-listener/camera-frame-listener-start",
+      "第1列": "CameraFrameListener.start​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-context/camera-context-on-camera-frame",
+      "第2列": "开始监听帧数据。开始监听后，CameraContext.onCameraFrame 回调中开始接收帧数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/camera/camera-frame-listener/camera-frame-listener-stop",
+      "第1列": "CameraFrameListener.stop​",
+      "第2列": "停止监听帧数据。​"
+    }
+  ],
+  "table16": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/tt-create-effect-camera-stream",
+      "第1列": "tt.createEffectCameraStream​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/effect-camera-stream/",
+      "第2列": "创建并返回特效相机数据流实例 EffectCameraStream，通过该对象的 API 可操作相机数据的开始、暂停、绘制等能力。同步 API。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/effect-camera-stream",
+      "第1列": "EffectCameraStream​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/tt-create-effect-camera-stream/",
+      "第2列": "EffectCameraStream 实例。可通过 tt.createEffectCameraStream  接口获取，后续可通过它调用特效相机相关能力，当前仅提供相机基本能力。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/request",
+      "第1列": "EffectCameraStream.request​",
+      "第2列": "设置数据源（相机）参数，并请求相机资源，用户授权后将占用相机资源。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/on-request",
+      "第1列": "EffectCameraStream.onRequest​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/off-request",
+      "第2列": "监听相机资源请求成功事件，资源请求成功后触发，可通过 EffectCameraStream.offRequest 取消监听。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/off-request",
+      "第1列": "EffectCameraStream.offRequest​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/request",
+      "第2列": "取消监听相机资源请求事件，取消后 EffectCameraStream.onRequest 的回调参数将不被触发。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/play",
+      "第1列": "EffectCameraStream.play​",
+      "第2列": "开启相机。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/on-play",
+      "第1列": "EffectCameraStream.onPlay​",
+      "第2列": "监听相机开启事件成功事件，资源请求成功后触发。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/off-play",
+      "第1列": "EffectCameraStream.offPlay​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/on-play",
+      "第2列": "取消监听相机开启事件，取消后 EffectCameraStream.onPlay 中的回调参数将不被触发。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/stop",
+      "第1列": "EffectCameraStream.stop​",
+      "第2列": "暂停相机的使用并停止更新数据，调用后若有其他数据流处理事件，则继续执行该处理逻辑到 stop 前的最后一帧（没有销毁底层相机图像缓冲区，只是不再更新数据）。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/on-stop",
+      "第1列": "EffectCameraStream.onStop​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/stop",
+      "第2列": "监听相机暂停事件 EffectCameraStream.stop 成功事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/off-stop",
+      "第1列": "EffectCameraStream.offStop​",
+      "第2列": "取消监听相机暂停事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/paint-to",
+      "第1列": "EffectCameraStream.paintTo​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/canvas/canvas/",
+      "第2列": "将相机数据绘制到指定的 canvas 画布区域（仅适用于 canvas V2）。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/on-error",
+      "第1列": "EffectCameraStream.onError​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/effect-camera-stream",
+      "第2列": "监听 EffectCameraStream 生命周期中的业务错误，包括 request、 play、stop。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/off-error",
+      "第1列": "EffectCameraStream.offError​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/effect-camera-stream",
+      "第2列": "取消对 EffectCameraStream 生命周期错误事件的监听，包括 request、 play、stop。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-stream/dispose",
+      "第1列": "EffectCameraStream.dispose​",
+      "第2列": "关闭相机并释放相机资源。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/effect-camera/effect-camera-video/overview",
+      "第1列": "EffectCameraVideo​",
+      "第2列": "EffectCameraVideo 为特效相机返回数据类型。​"
+    }
+  ],
+  "table17": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/tt-create-media-recorder",
+      "第1列": "tt.createMediaRecorder​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/MediaRecorder",
+      "第2列": "小程序中的 Canvas 录制器 MediaRecorder  可以录制 Canvas（v2） 上绘制的所有画面，可以精确的控制录制的开始暂停，并且在录制结束时会自动导出 mp4 视频文件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/MediaRecorder",
+      "第1列": "MediaRecorder​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/tt-create-media-recorder/",
+      "第2列": "通过 tt.createMediaRecorder 获取的实例。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-start",
+      "第1列": "MediaRecorder.start​",
+      "第2列": "开始录制。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-onstart",
+      "第1列": "MediaRecorder.onStart​",
+      "第2列": "监听录制开始事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-on-stop",
+      "第1列": "MediaRecorder.onStop​",
+      "第2列": "监听录制结束事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-stop",
+      "第1列": "MediaRecorder.stop​",
+      "第2列": "结束录制。真正结束录制写入文件完成后会触发注册的MediaRecorder.onstop回调。stop后无法重新调用start。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-pause",
+      "第1列": "MediaRecorder.pause​",
+      "第2列": "暂停录制。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-resume",
+      "第1列": "MediaRecorder.resume​",
+      "第2列": "恢复录制。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-on-error",
+      "第1列": "MediaRecorder.onError​",
+      "第2列": "监听 Canvas 录制器的错误事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-request-frame",
+      "第1列": "MediaRecorder.requestFrame​",
+      "第2列": "手动模式中主动录制当前 Canvas 上的当前画面到视频帧中，仅在手动模式中生效。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/media/canvas-recording/media-recorder/media-recorder-destroy",
+      "第1列": "MediaRecorder.destroy​",
+      "第2列": "销毁 Canvas 录制器并释放资源，建议在不使用录制器后及时调用本函数释放资源。​"
+    }
+  ],
+  "table18": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/tt-create-map-context",
+      "第1列": "tt.createMapContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/map-context",
+      "第2列": "创建 组件上下文 MapContext 对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/map-context",
+      "第1列": "MapContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/tt-create-map-context/",
+      "第2列": "通过 tt.createMapContext 获取的实例，通过它能够操作地图。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/get-center-location",
+      "第1列": "MapContext.getCenterLocation​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-open-location",
+      "第2列": "获取当前地图中心的经纬度，返回的是 gcj02 坐标系，可以用于 tt.openLocation()。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/get-region",
+      "第1列": "MapContext.getRegion​",
+      "第2列": "获取地图视野范围。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/get-scale",
+      "第1列": "MapContext.getScale​",
+      "第2列": "获取地图缩放值。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/move-to-location",
+      "第1列": "MapContext.moveToLocation​",
+      "第2列": "将地图中心移动到定位点。地图能力基于 gcj02 坐标系，请注意入参的经纬度信息转换。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/get-rotate",
+      "第1列": "MapContext.getRotate​",
+      "第2列": "获取地图的旋转角。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/include-points",
+      "第1列": "MapContext.includePoints​",
+      "第2列": "缩放视野展示所有经纬度。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/get-skew",
+      "第1列": "MapContext.getSkew​",
+      "第2列": "获取当前地图的倾斜角。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/translate-marker",
+      "第1列": "MapContext.translateMarker​",
+      "第2列": "平移 marker，带动画。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/move-along",
+      "第1列": "MapContext.moveAlong​",
+      "第2列": "沿指定路径移动 marker，用于轨迹回放等场景。动画完成时触发回调事件，若动画进行中，对同一 marker 再次调用 moveAlong 方法，前一次的动画将被打断。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/map-to-screen",
+      "第1列": "MapContext.mapToScreen​",
+      "第2列": "用于将地图经纬度坐标系转换成屏幕坐标系。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/screen-to-map",
+      "第1列": "MapContext.screenToMap​",
+      "第2列": "用于将屏幕坐标系转换成地图经纬度坐标系。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/set-loc-marker-icon",
+      "第1列": "MapContext.setLocMarkerIcon​",
+      "第2列": "设置定位点图标，支持网络路径、本地路径、代码包路径。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/open-map-app",
+      "第1列": "MapContext.openMapApp​",
+      "第2列": "拉起地图 APP 选择导航。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/add-ground-overlay",
+      "第1列": "MapContext.addGroundOverlay​",
+      "第2列": "创建自定义图片图层，图片会随着地图缩放而缩放。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/set-center-offset",
+      "第1列": "MapContext.setCenterOffset​",
+      "第2列": "设置地图中心点偏移，未设置时默认偏移为 [0.5, 0.5]。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/update-ground-overlay",
+      "第1列": "MapContext.updateGroundOverlay​",
+      "第2列": "更新自定义图片图层。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/map/map-context/remove-ground-overlay",
+      "第1列": "MapContext.removeGroundOverlay​",
+      "第2列": "移除自定义图片图层。​"
+    }
+  ],
+  "table19": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/tt-save-file",
+      "第1列": "tt.saveFile​",
+      "第2列": "保存临时文件到用户目录, 用户目录以 ttfile://user 开头。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/tt-get-file-info",
+      "第1列": "tt.getFileInfo​",
+      "第2列": "获取文件信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/tt-get-saved-file-list",
+      "第1列": "tt.getSavedFileList​",
+      "第2列": "获取该小程序下用户目录文件列表, 用户目录以 ttfile://user 开头。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/tt-open-document",
+      "第1列": "tt.openDocument​",
+      "第2列": "新开页面打开文档，支持格式：doc，docx，xls，xlsx，ppt，pptx，pdf。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/tt-remove-saved-file",
+      "第1列": "tt.removeSavedFile​",
+      "第2列": "删除该小程序下用户目录内的文件, 用户目录以 ttfile://user 开头。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/tt-get-file-system-manager",
+      "第1列": "tt.getFileSystemManager​",
+      "第2列": "获取全局唯一的文件管理器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager",
+      "第1列": "FileSystemManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/tt-get-file-system-manager",
+      "第2列": "通过 tt.getFileSystemManager 获取的实例，通过它可以管理文件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-access-sync",
+      "第1列": "FileSystemManager.accessSync​",
+      "第2列": "判断文件/目录是否存在。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-access",
+      "第1列": "FileSystemManager.access​",
+      "第2列": "判断文件/目录是否存在。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-append-file-sync",
+      "第1列": "FileSystemManager.appendFileSync​",
+      "第2列": "在文件结尾追加内容，只有用户目录（ttfile://user）下的文件可以追加，文件不存在时会新建。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-append-file",
+      "第1列": "FileSystemManager.appendFile​",
+      "第2列": "在文件结尾追加内容，只有用户目录（ttfile://user）下的文件可以追加，文件不存在时会新建。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-copy-file-sync",
+      "第1列": "FileSystemManager.copyFileSync​",
+      "第2列": "同步复制文件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-copy-file",
+      "第1列": "FileSystemManager.copyFile​",
+      "第2列": "复制文件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-get-file-info",
+      "第1列": "FileSystemManager.getFileInfo​",
+      "第2列": "获取临时目录(ttfile://temp) 或用户目录（ttfile://user）下的文件信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-get-saved-file-list",
+      "第1列": "FileSystemManager.getSavedFileList​",
+      "第2列": "获取该小程序下用户目录文件列表, 用户目录以 ttfile://user 开头。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-mkdir-sync",
+      "第1列": "FileSystemManager.mkdirSync​",
+      "第2列": "在用户目录下创建目录。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-mkdir",
+      "第1列": "FileSystemManager.mkdir​",
+      "第2列": "在用户目录下创建目录。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-read-file-sync",
+      "第1列": "FileSystemManager.readFileSync​",
+      "第2列": "读取本地文件内容。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-read-file",
+      "第1列": "FileSystemManager.readFile​",
+      "第2列": "读取本地文件内容。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-readdir-sync",
+      "第1列": "FileSystemManager.readdirSync​",
+      "第2列": "读取目录内文件列表。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-readdir",
+      "第1列": "FileSystemManager.readdir​",
+      "第2列": "读取目录内文件列表。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-remove-saved-file",
+      "第1列": "FileSystemManager.removeSavedFile​",
+      "第2列": "删除该小程序下用户目录内的文件, 用户目录以 ttfile://user 开头。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-rename-sync",
+      "第1列": "FileSystemManager.renameSync​",
+      "第2列": "重命名文件，可以把文件从 oldPath 移动到 newPath。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-rename",
+      "第1列": "FileSystemManager.rename​",
+      "第2列": "重命名文件，可以把文件从 oldPath 移动到 newPath。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-rmdir-sync",
+      "第1列": "FileSystemManager.rmdirSync​",
+      "第2列": "删除目录, 开发者只能删除 用户目录（ttfile://user）下的目录。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-rmdir",
+      "第1列": "FileSystemManager.rmdir​",
+      "第2列": "删除目录, 只能是 ttfile://user 下的目录。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-save-file-sync",
+      "第1列": "FileSystemManager.saveFileSync​",
+      "第2列": "保存临时文件到用户目录, 用户目录以 ttfile://user 开头。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-save-file",
+      "第1列": "FileSystemManager.saveFile​",
+      "第2列": "保存临时文件到用户目录, 用户目录以 ttfile://user 开头。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-stat-sync",
+      "第1列": "FileSystemManager.statSync​",
+      "第2列": "获取文件 Stat 对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-stat",
+      "第1列": "FileSystemManager.stat​",
+      "第2列": "获取文件 Stat 对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-truncate-sync",
+      "第1列": "FileSystemManager.truncateSync​",
+      "第2列": "对文件内容进行截断操作，只有用户目录（ttfile://user）下的文件可以截断。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-truncate",
+      "第1列": "FileSystemManager.truncate​",
+      "第2列": "对文件内容进行截断操作，只有用户目录（ttfile://user）下的文件可以截断。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-unlink-sync",
+      "第1列": "FileSystemManager.unlinkSync​",
+      "第2列": "删除文件，只能删除 用户目录(ttfile://user)下的文件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-unlink",
+      "第1列": "FileSystemManager.unlink​",
+      "第2列": "删除文件，只能在 ttfile://user 开头的用户目录下操作。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-unzip",
+      "第1列": "FileSystemManager.unzip​",
+      "第2列": "解压文件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-write-file-sync",
+      "第1列": "FileSystemManager.writeFileSync​",
+      "第2列": "写文件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/file-system-manager/file-system-manager-write-file",
+      "第1列": "FileSystemManager.writeFile​",
+      "第2列": "写文件，只能写入用户目录（ttfile://user）。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/stat/stat",
+      "第1列": "Stat​",
+      "第2列": "描述文件状态的对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/stat/stat-is-directory",
+      "第1列": "Stat.isDirectory​",
+      "第2列": "判断当前文件是否一个目录。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/file/stat/stat-is-file",
+      "第1列": "Stat.isFile​",
+      "第2列": "判断当前文件是否一个普通文件。​"
+    }
+  ],
+  "table20": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/env-info/get-env-info-sync",
+      "第1列": "tt.getEnvInfoSync​",
+      "第2列": "获取小程序环境信息。​"
+    }
+  ],
+  "table21": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/log-in/tt-login",
+      "第1列": "tt.login​",
+      "第2列": "调用该 API 可以获取用户临时的登录凭证。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/log-in/tt-check-session",
+      "第1列": "tt.checkSession​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/log-in/tt-login/",
+      "第2列": "用户的登录态具有时效性，随着用户未使用小程序的时间增加，用户的登录态越容易失效；反之，则用户登录态可持续保持有效。使用该 API 可检查用户当前的 session 状态是否有效，登录态过期后开发者可以再调用 tt.login 获取新的用户登录态。​"
+    }
+  ],
+  "table22": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/user-information/tt-get-user-profile",
+      "第1列": "tt.getUserProfile​",
+      "第2列": "获取用户的基本信息，只可在 tap 事件回调中调用，每次调用都会弹出授权提示窗，若用户同意，则会返回用户的真实数据。​"
+    }
+  ],
+  "table23": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/rewarded-video/tt-createRewardedVideoAd",
+      "第1列": "tt.createRewardedVideoAd​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/operation/management/publisher/LLZ#_%E4%B8%80%E5%B9%BF%E5%91%8A%E7%BB%84%E4%BB%B6%E6%8E%A5%E5%85%A5%E8%A7%84%E8%8C%83",
+      "第2列": "开发者可以在小程序中使用激励视频广告获得收入。具体接入方式可参考广告组件接入规范。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/rewarded-video/onLoad",
+      "第1列": "RewardedVideoAd.onLoad​",
+      "第2列": "绑定 load 事件的监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/rewarded-video/offLoad",
+      "第1列": "RewardedVideoAd.offLoad​",
+      "第2列": "解除绑定 load 事件的监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/rewarded-video/load",
+      "第1列": "RewardedVideoAd.load​",
+      "第2列": "当广告素材加载出现错误时，可以通过 load 方法手动加载。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/rewarded-video/onError",
+      "第1列": "RewardedVideoAd.onError​",
+      "第2列": "绑定 error 事件的监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/rewarded-video/offError",
+      "第1列": "RewardedVideoAd.offError​",
+      "第2列": "解除绑定 error 事件的监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/rewarded-video/onClose",
+      "第1列": "RewardedVideoAd.onClose​",
+      "第2列": "绑定 close 事件的监听器。 当用户点击了激励视频广告上的关闭按钮时，会触发 close 事件的监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/rewarded-video/offClose",
+      "第1列": "RewardedVideoAd.offClose​",
+      "第2列": "解除绑定 close 事件的监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/interstitial/tt.createInterstitialAd",
+      "第1列": "tt.createInterstitialAd​",
+      "第2列": "创建插屏广告组件，开发者可以在小程序中使用插屏广告获得收入。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/interstitial/show",
+      "第1列": "InterstitialAd.show​",
+      "第2列": "广告创建后默认是隐藏的，可以通过该方法显示广告。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/interstitial/load",
+      "第1列": "InterstitialAd.load​",
+      "第2列": "当广告素材加载出现错误时，可以通过 load 方法手动加载。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/interstitial/destroy",
+      "第1列": "InterstitialAd.destroy​",
+      "第2列": "手动销毁插屏广告实例。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/interstitial/onLoad",
+      "第1列": "InterstitialAd.onLoad​",
+      "第2列": "绑定 load 事件的监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/ads/interstitial/offLoad",
+      "第1列": "InterstitialAd.offLoad​",
+      "第2列": "解除绑定 load 事件的监听器。​"
+    }
+  ],
+  "table24": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/pay/tt-pay",
+      "第1列": "tt.pay​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/guaranteed-payment/TE",
+      "第2列": "调起字节小程序收银台进行支付。开发接入之前，请先完成商户入驻流程，详细文档见：小程序担保支付接入准备。​"
+    }
+  ],
+  "table25": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/mini-app-forward/tt-navigate-to-mini-program",
+      "第1列": "tt.navigateToMiniProgram​",
+      "第2列": "跳转到另一个小程序。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/mini-app-forward/tt-navigate-back-mini-program",
+      "第1列": "tt.navigateBackMiniProgram​",
+      "第2列": "返回到跳转来的上一个小程序。​"
+    }
+  ],
+  "table26": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/delivery-address/tt-choose-address",
+      "第1列": "tt.chooseAddress​",
+      "第2列": "获取用户收货地址。调起用户编辑收货地址原生界面，并在编辑完成后返回用户选择的地址。​"
+    }
+  ],
+  "table27": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/set/tt-get-setting",
+      "第1列": "tt.getSetting​",
+      "第2列": "获取用户已经授权过的配置。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/set/tt-open-setting",
+      "第1列": "tt.openSetting​",
+      "第2列": "打开设置页面，返回用户设置过的授权结果。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/set/auth-setting",
+      "第1列": "AuthSetting​",
+      "第2列": "用户授权的设置信息。​"
+    }
+  ],
+  "table28": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/authorization/tt-show-douyin-open-auth",
+      "第1列": "tt.showDouyinOpenAuth​",
+      "API描述链接1": "https://open.douyin.com/platform/management",
+      "第2列": "提供小程序获取抖音权限的能力，展示出抖音权限授权弹窗。在使用接口前，需要小程序拥有者前往抖音开放平台-管理中心-应用管理申请开通小程序需要的权限。下图以开通视频发布权限为例。​"
+    }
+  ],
+  "table29": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/rate/can-rate-aweme-orders",
+      "第1列": "tt.canRateAwemeOrders​",
+      "第2列": "根据传入的订单列表，返回订单是否可以评价。​\n该 API 只支持抖音宿主。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/rate/rate-aweme-order",
+      "第1列": "tt.rateAwemeOrder​",
+      "第2列": "根据传入的订单 id，跳转到抖音评价页面，供用户填写评价。待评价订单中的商品必须在 POI 商品库中，非商品库中的商品订单暂不支持该能力。​\n该 API 只支持抖音宿主。​"
+    }
+  ],
+  "table30": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/data-analysis/tt-report-analytics",
+      "第1列": "tt.reportAnalytics​",
+      "第2列": "自定义分析数据上报接口，调用后，会将数据上报到小程序开发者平台，开发者可以在小程序开发者平台中查看上报数据。使用前，需要在小程序管理后台事件中新建事件，配置好事件名与字段。​"
+    }
+  ],
+  "table31": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/retweet/tt-navigate-to-video-view",
+      "第1列": "跳转视频播放页​",
+      "第2列": "跳转到分享的视频播放页面，目前仅抖音支持。​"
+    }
+  ],
+  "table32": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/follow/tt-follow-official-account",
+      "第1列": "tt.followOfficialAccount​",
+      "第2列": "关注小程序绑定的头条号。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/follow/tt-check-follow-state",
+      "第1列": "tt.checkFollowState​",
+      "第2列": "查看用户是否已关注小程序绑定的头条号。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/follow/tt-follow-aweme-user",
+      "第1列": "tt.followAwemeUser​",
+      "第2列": "调用此 API 会弹出弹框，用户可以点击按钮关注绑定的抖音号。只支持在抖音和抖音 Lite App 上使用。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/follow/check-follow-aweme-state",
+      "第1列": "tt.checkFollowAwemeState​",
+      "第2列": "提供从小程序查看抖音号是否关注的能力。​"
+    }
+  ],
+  "table33": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/open-interface/subscribe-message/tt-request-subscribe-message",
+      "第1列": "tt.requestSubscribeMessage​",
+      "第2列": "调起客户端订阅消息界面，返回用户订阅消息的操作结果。当用户勾选了订阅面板中的 “总是保持以上选择，不再询问” 时，或是点击了订阅面板中 “拒绝，不再询问” 时，模板消息会被添加到用户的小程序设置页，用户可以在设置页面进行管理。​"
+    }
+  ],
+  "table34": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-get-storage",
+      "第1列": "tt.getStorage​",
+      "第2列": "获取本地缓存数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-get-storage-sync",
+      "第1列": "tt.getStorageSync​",
+      "第2列": "获取本地缓存数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-set-storage",
+      "第1列": "tt.setStorage​",
+      "第2列": "以「键值对」的形式设置本地缓存数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-set-storage-sync",
+      "第1列": "tt.setStorageSync​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-set-storage/",
+      "第2列": "以「键值对」的形式设置本地缓存数据，是tt.setStorage的同步版本。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-remove-storage",
+      "第1列": "tt.removeStorage​",
+      "第2列": "从本地缓存数据中删除 key 对应的值。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-remove-storage-sync",
+      "第1列": "tt.removeStorageSync​",
+      "第2列": "从本地缓存数据中删除 key 对应的值。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-clear-storage",
+      "第1列": "tt.clearStorage​",
+      "第2列": "清理本地数据缓存。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-clear-storage-sync",
+      "第1列": "tt.clearStorageSync​",
+      "第2列": "清理本地数据缓存的同步接口。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-get-storage-info",
+      "第1列": "tt.getStorageInfo​",
+      "第2列": "获取本地缓存数据的相关信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/data-caching/tt-get-storage-info-sync",
+      "第1列": "tt.getStorageInfoSync​",
+      "第2列": "同步获取当前本地缓存数据的相关信息。​"
+    }
+  ],
+  "table35": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-get-location",
+      "第1列": "tt.getLocation​",
+      "第2列": "获取设备当前的地理位置。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-choose-location",
+      "第1列": "tt.chooseLocation​",
+      "第2列": "打开地图选择位置。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-open-location",
+      "第1列": "tt.openLocation​",
+      "第2列": "使用内置地图查看位置。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-start-location-update",
+      "第1列": "tt.startLocationUpdate​",
+      "第2列": "开始接收位置更新。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-stop-location-update",
+      "第1列": "tt.stopLocationUpdate​",
+      "第2列": "停止接收位置更新。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-on-location-change",
+      "第1列": "tt.onLocationChange​",
+      "第2列": "注册地理位置变化回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-off-location-change",
+      "第1列": "tt.offLocationChange​",
+      "第2列": "取消注册地理位置变化回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-on-location-change-error",
+      "第1列": "tt.onLocationChangeError​",
+      "第2列": "注册位置更新异常回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/location/tt-off-location-change-error",
+      "第1列": "tt.offLocationChangeError​",
+      "第2列": "取消注册位置更新错误回调。​"
+    }
+  ],
+  "table36": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/network-state/tt-get-network-type",
+      "第1列": "tt.getNetworkType​",
+      "第2列": "​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/network-state/tt-on-network-status-change",
+      "第1列": "tt.onNetworkStatusChange​",
+      "第2列": "监听网络状态变化。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/network-state/tt-get-wifi-list",
+      "第1列": "tt.getWifiList​",
+      "第2列": "请求获取 Wi-Fi 列表（对应打开手机 Wi-Fi 配置可以扫描到的 Wi-Fi 列表）。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/network-state/tt-on-get-wifi-list",
+      "第1列": "tt.onGetWifiList​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/network-state/tt-get-wifi-list",
+      "第2列": "使用 tt.getWifiList 后通过该回调监听获取到 Wi-Fi 列表数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/network-state/offGetWifiList",
+      "第1列": "tt.offGetWifiList​",
+      "第2列": "取消监听获取到 Wi-Fi 列表数据事件。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/network-state/off-network-status-change",
+      "第1列": "tt.offNetworkStatusChange​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/network-state/tt-on-network-status-change",
+      "第2列": "取消监听网络状态变化。​"
+    }
+  ],
+  "table37": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/system-information/tt-get-system-info",
+      "第1列": "tt.getSystemInfo​",
+      "第2列": "获取系统信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/system-information/tt-get-system-info-sync",
+      "第1列": "tt.getSystemInfoSync​",
+      "第2列": "获取系统信息。​"
+    }
+  ],
+  "table38": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/wi-fi/tt-get-connected-wifi",
+      "第1列": "tt.getConnectedWifi​",
+      "第2列": "获取设备当前所连的 WiFi 信息。​"
+    }
+  ],
+  "table39": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/compass/tt-start-compass",
+      "第1列": "tt.startCompass​",
+      "第2列": "开始监听罗盘数据。罗盘数据会在用户手机发生“朝向变化/加速前进&后退/摇一摇”等手势时触发变化。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/compass/tt-stop-compass",
+      "第1列": "tt.stopCompass​",
+      "第2列": "停止监听罗盘数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/compass/tt-on-compass-change",
+      "第1列": "tt.onCompassChange​",
+      "第2列": "监听罗盘数据变化。罗盘数据会在用户手机发生“朝向变化/加速前进&后退/摇一摇”等手势时触发变化。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/compass/tt-off-compass-change",
+      "第1列": "tt.offCompassChange​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/compass/tt-on-compass-change",
+      "第2列": "取消监听罗盘数据变化。​"
+    }
+  ],
+  "table40": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/jerkmeter/tt-start-accelerometer",
+      "第1列": "tt.startAccelerometer​",
+      "第2列": "开始监听加速度数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/jerkmeter/tt-stop-accelerometer",
+      "第1列": "tt.stopAccelerometer​",
+      "第2列": "停止监听加速度数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/jerkmeter/tt-on-accelerometer-change",
+      "第1列": "tt.onAccelerometerChange​",
+      "第2列": "监听加速度数据。回调的频率为 5 次 / 秒，暂不支持设置。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/jerkmeter/tt-off-accelerometer-change",
+      "第1列": "tt.offAccelerometerChange​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/jerkmeter/tt-on-accelerometer-change",
+      "第2列": "取消监听加速度数据。​"
+    }
+  ],
+  "table41": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/phone-call/tt-make-phone-call",
+      "第1列": "tt.makePhoneCall​",
+      "第2列": "调用宿主拨打电话功能，用户选择拨打电话或取消。​"
+    }
+  ],
+  "table42": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/scan-code/tt-scan-code",
+      "第1列": "tt.scanCode​",
+      "第2列": "调用宿主的扫码界面功能，扫码成功后返回对应的扫描结果。​"
+    }
+  ],
+  "table43": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/pasting-board/tt-get-clipboard-data",
+      "第1列": "tt.getClipboardData​",
+      "第2列": "获取系统剪贴板内容。基础库 2.53.0 开始，调用成功后，会弹出 toast 提示\"已读取剪切板内容\"，持续 1.5s。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/pasting-board/tt-set-clipboard-data",
+      "第1列": "tt.setClipboardData​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/pasting-board/tt-get-clipboard-data/",
+      "第2列": "设置系统剪贴板内容。基础库 2.53.0 开始，调用成功后，会弹出 toast 提示\"已设置剪切板内容\"，持续 1.5s。可以和 tt.getClipboardData 配套使用。​"
+    }
+  ],
+  "table44": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-set-keep-screen-on",
+      "第1列": "tt.setKeepScreenOn​",
+      "第2列": "设置是否保持屏幕常亮状态。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-on-user-capture-screen",
+      "第1列": "tt.onUserCaptureScreen​",
+      "第2列": "监听用户主动截屏事件，用户使用系统截屏按键截屏时触发此事件，只能添加一个监听器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-off-user-capture-screen",
+      "第1列": "tt.offUserCaptureScreen​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-on-user-capture-screen/",
+      "第2列": "取消监听用户主动截屏事件，卸载通过 tt.onUserCaptureScreen 注册的截屏事件监听函数。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/get-screen-brightness",
+      "第1列": "tt.getScreenBrightness​",
+      "第2列": "获取屏幕亮度。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-set-screen-brightness",
+      "第1列": "tt.setScreenBrightness​",
+      "第2列": "设置屏幕亮度。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-disable-user-screen-record",
+      "第1列": "tt.disableUserScreenRecord​",
+      "第2列": "调用该 API 可以禁止用户录屏，该 API 仅支持在 Android 上调用。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-enable-user-screen-record",
+      "第1列": "tt.enableUserScreenRecord​",
+      "第2列": "调用该 API 可以取消禁止用户录屏，该 API 仅支持在 Android 上调用。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-on-user-screen-record",
+      "第1列": "tt.onUserScreenRecord​",
+      "第2列": "监听用户主动录屏事件，用户使用系统录屏按键录屏时触发此事件，该 API 仅支持在 iOS 上调用。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-off-user-screen-record",
+      "第1列": "tt.offUserScreenRecord​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/screen/tt-on-user-screen-record",
+      "第2列": "取消监听用户主动录屏事件，卸载通过 tt.onUserScreenRecord 注册的截屏事件监听函数。​"
+    }
+  ],
+  "table45": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/shake/tt-vibrate-short",
+      "第1列": "tt.vibrateShort​",
+      "第2列": "使手机发生较短时间的振动。Android 震动时间为 30ms，iOS 震动时间为 15ms。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/shake/tt-vibrate-long",
+      "第1列": "tt.vibrateLong​",
+      "第2列": "使手机发生较长时间的振动（400 ms)。​"
+    }
+  ],
+  "table46": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/device/performance/tt-on-memory-warning",
+      "第1列": "tt.onMemoryWarning​",
+      "第2列": "监听内存不足的告警事件。当手机内存占用过高时，触发回调函数。该事件不会杀掉小程序, 建议开发者可以在接受到告警后释放不必要的资源。 Android 下有告警等级划分。​"
+    }
+  ],
+  "table47": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/create-canvas-context",
+      "第1列": "tt.createCanvasContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/overview",
+      "第2列": "根据 canvas 组件 canvas-id 创建可以控制组件的上下文 CanvasContext 对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/overview",
+      "第1列": "CanvasContext​",
+      "第2列": "canvas 组件 V1 的上下文（即 canvas 组件未指定 type 属性）。可以用来控制如何在画布中绘制。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/begin-path",
+      "第1列": "CanvasContext.beginPath​",
+      "第2列": "开始创建一个新的路径。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/clip",
+      "第1列": "CanvasContext.clip​",
+      "第2列": "从原始画布中剪切任意形状和尺寸。一旦剪切了某个区域，则所有之后的绘图都会被限制在被剪切的区域内（即不能访问画布上的其他区域）。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/draw",
+      "第1列": "CanvasContext.draw​",
+      "第2列": "将之前在绘图上下文中的描述（路径、变形、样式）画到 canvas 中。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/line-to",
+      "第1列": "CanvasContext.lineTo​",
+      "第2列": "增加一个新点，然后创建一条从上次指定点到目标点的线。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-font-size",
+      "第1列": "CanvasContext.setFontSize​",
+      "第2列": "设置字体的字号。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-fill-style",
+      "第1列": "CanvasContext.setFillStyle​",
+      "第2列": "设置填充的颜色。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/create-linear-gradient",
+      "第1列": "CanvasContext.createLinearGradient​",
+      "第2列": "创建一个线性的渐变颜色。​"
+    },
+    {
+      "第1列": "​CanvasContext.setStrokeStyle​",
+      "第2列": "设置边框颜色。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-global-alpha",
+      "第1列": "CanvasContext.setGlobalAlpha​",
+      "第2列": "设置全局画笔透明度。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/transform",
+      "第1列": "CanvasContext.transform​",
+      "第2列": "使用矩阵多次叠加当前变换的方法，矩阵由方法的参数进行描述。可以缩放、旋转、移动和倾斜上下文。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/fill",
+      "第1列": "CanvasContext.fill​",
+      "第2列": "对当前路径中的内容进行填充。默认的填充色为黑色。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/stroke",
+      "第1列": "CanvasContext.stroke​",
+      "第2列": "用于画出当前路径的边框。默认颜色为黑色。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-line-dash",
+      "第1列": "CanvasContext.setLineDash​",
+      "第2列": "设置线条虚线样式的间距和长度。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/fill-rect",
+      "第1列": "CanvasContext.fillRect​",
+      "第2列": "填充一个矩形。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/stroke-rect",
+      "第1列": "CanvasContext.strokeRect​",
+      "第2列": "画一个矩形（非填充）。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/draw-image",
+      "第1列": "CanvasContext.drawImage​",
+      "第2列": "绘制图像到画布。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/measure-text",
+      "第1列": "CanvasContext.measureText​",
+      "第2列": "测量文本尺寸信息。目前仅返回文本宽度。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/scale",
+      "第1列": "CanvasContext.scale​",
+      "第2列": "在调用后，之后创建的路径其横纵坐标会被缩放。多次调用倍数会相乘。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/rotate",
+      "第1列": "CanvasContext.rotate​",
+      "第2列": "以原点为中心顺时针旋转当前坐标轴。多次调用旋转的角度会叠加。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/translate",
+      "第1列": "CanvasContext.translate​",
+      "第2列": "变换当前坐标系的原点 (0, 0) 。默认的坐标系原点为页面左上角。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/save",
+      "第1列": "CanvasContext.save​",
+      "第2列": "保存绘图上下文，保存当前的绘制状态，包括变换矩阵、剪切区域、虚线列表等。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/restore",
+      "第1列": "CanvasContext.restore​",
+      "第2列": "恢复之前保存的绘图上下文。包括变换矩阵、剪切区域、虚线列表等。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/clear-rect",
+      "第1列": "CanvasContext.clearRect​",
+      "第2列": "清除画布上在该矩形区域内的内容。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/fill-text",
+      "第1列": "CanvasContext.fillText​",
+      "第2列": "在画布上填充指定文本。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-text-align",
+      "第1列": "CanvasContext.setTextAlign​",
+      "第2列": "设置文字的对齐方式。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-line-cap",
+      "第1列": "CanvasContext.setLineCap​",
+      "第2列": "设置线条的端点样式。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-line-join",
+      "第1列": "CanvasContext.setLineJoin​",
+      "第2列": "设置线条的交点样式。不设置时默认为尖角样式。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-line-width",
+      "第1列": "CanvasContext.setLineWidth​",
+      "第2列": "设置线条的宽度。不设置时线条宽度默认为 1px。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-miter-limit",
+      "第1列": "CanvasContext.setMiterLimit​",
+      "第2列": "设置最大斜接长度。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-text-baseline",
+      "第1列": "CanvasContext.setTextBaseline​",
+      "第2列": "设置文字垂直方向的对齐方式。不设置时表现默认为 alphabetic。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/set-transform",
+      "第1列": "CanvasContext.setTransform​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/stroke",
+      "第2列": "将一个新的子路径的起始点移动到指定点，不创建线条。绘制线条请调用 CanvasContext.stroke 方法。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/move-to",
+      "第1列": "CanvasContext.moveTo​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/stroke",
+      "第2列": "将一个新的子路径的起始点移动到指定点，不创建线条。绘制线条请调用 CanvasContext.stroke 方法。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/rect",
+      "第1列": "CanvasContext.rect​",
+      "第2列": "创建一个矩形路径。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/arc",
+      "第1列": "CanvasContext.arc​",
+      "第2列": "根据指定方向（默认顺时针）从起始点开始创建一条弧线。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/quadratic-curve-to",
+      "第1列": "CanvasContext.quadraticCurveTo​",
+      "第2列": "创建二次贝塞尔曲线路径。需要 2 个点。 第一个点是控制点，第二个点是终点。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/bezier-curve-to",
+      "第1列": "CanvasContext.bezierCurveTo​",
+      "第2列": "创建三次方贝塞尔曲线路径。该方法需要三个点。 第一、第二个点是控制点，第三个点是结束点。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/close-path",
+      "第1列": "CanvasContext.closePath​",
+      "第2列": "关闭一个路径。会连接起点和终点。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-gradient/overview",
+      "第1列": "CanvasGradient​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-context/create-linear-gradient",
+      "第2列": "渐变的不透明对象，可通过 CanvasContext.createLinearGradient 生成。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-gradient/add-color-stop",
+      "第1列": "CanvasGradient.addColorStop​",
+      "第2列": "添加颜色的渐变点。小于最小 stop 的部分会按最小 stop 的 color 来渲染，大于最大 stop 的部分会按最大 stop 的 color 来渲染。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v1/canvas-color",
+      "第1列": "CanvasColor​",
+      "第2列": "设置颜色值。​"
+    }
+  ],
+  "table48": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/tt-create-offscreenCanvas",
+      "第1列": "tt.createOffscreenCanvas​",
+      "第2列": "创建离屏 canvas 实例。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/rendering-context",
+      "第1列": "RenderingContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/offscreenCanvas/getContext",
+      "第2列": "通过 Canvas.getContext 或者 OffscreenCanvas.getContext 获取的 Canvas 绘图上下文。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/Image",
+      "第1列": "Image​",
+      "第2列": "图片对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/Canvas/Canvas",
+      "第1列": "Canvas​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/selector-query/selector-query",
+      "第2列": "Canvas 实例，可通过 SelectorQuery 获取。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/Canvas/Canvas.getContext",
+      "第1列": "Canvas.getContext​",
+      "第2列": "获取 Canvas 的绘图上下文。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/Canvas/Canvas.requestAnimationFrame",
+      "第1列": "Canvas.requestAnimationFrame​",
+      "第2列": "在下次进行重绘时执行。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/Canvas/Canvas.cancelAnimationFrame",
+      "第1列": "Canvas.cancelAnimationFrame​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/Canvas/Canvas.requestAnimationFrame",
+      "第2列": "取消由 Canvas.requestAnimationFrame 添加到计划中的动画帧请求。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/Canvas/Canvas.createImage",
+      "第1列": "Canvas.createImage​",
+      "第2列": "创建一个图片对象。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/offscreenCanvas/OffscreenCanvas",
+      "第1列": "OffscreenCanvas​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/tt-create-offscreenCanvas",
+      "第2列": "离屏 canvas 实例，可通过 tt.createOffscreenCanvas 创建。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/canvas/v2/offscreenCanvas/getContext",
+      "第1列": "OffscreenCanvas.getContext​",
+      "第2列": "获取 OffscreenCanvas 的绘图上下文。​"
+    }
+  ],
+  "table49": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/interfeedback/tt-show-toast",
+      "第1列": "tt.showToast​",
+      "第2列": "显示灰色背景的消息提示框，用以提供成功、警告和错误等反馈信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/interfeedback/tt-hide-toast",
+      "第1列": "tt.hideToast​",
+      "第2列": "隐藏灰色背景的消息提示框。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/interfeedback/tt-show-loading",
+      "第1列": "tt.showLoading​",
+      "第2列": "显示灰色背景的 loading 提示框。该提示框不会主动隐藏。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/interfeedback/tt-hide-loading",
+      "第1列": "tt.hideLoading​",
+      "第2列": "隐藏 loading 提示框。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/interfeedback/tt-show-modal",
+      "第1列": "tt.showModal​",
+      "第2列": "显示模态弹窗。用于同步用户重要信息，并要求用户进行确认，或执行特定操作以决策下一步骤。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/interfeedback/tt-show-action-sheet",
+      "第1列": "tt.showActionSheet​",
+      "第2列": "显示操作菜单​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/interfeedback/tt-show-favorite-guide",
+      "第1列": "tt.showFavoriteGuide​",
+      "第2列": "在小程序内调起关注小程序的引导组件，用于引导用户关注小程序。​"
+    }
+  ],
+  "table50": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/navigation-bar/tt-show-navigation-bar-loading",
+      "第1列": "tt.showNavigationBarLoading​",
+      "第2列": "在当前页面显示导航条加载动画。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/navigation-bar/tt-hide-navigation-bar-loading",
+      "第1列": "tt.hideNavigationBarLoading​",
+      "第2列": "在当前页面隐藏导航条加载动画。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/navigation-bar/tt-hide-home-button",
+      "第1列": "tt.hideHomeButton​",
+      "第2列": "隐藏返回首页按钮。​\n基础库 1.48.0 版本起，当用户打开的小程序最底层页面是非首页时，默认展示【返回首页】按钮，开发者可在页面 onShow 中调用 hideHomeButton 进行隐藏。​\n基础库 2.42.0 版本起，【返回首页】按钮 UI 改版，当用户打开小程序为一级页面，会露出小程序 logo，如果此时为非首页，点击 logo 会回到首页。此能力只能关闭返回首页的能力，但不影响左上角小程序 logo 按钮的露出。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/navigation-bar/tt-set-navigation-bar-title",
+      "第1列": "tt.setNavigationBarTitle​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/design/design-guidelines/Control/Navigation-Bar",
+      "第2列": "设置导航栏标题。相关设计规范请参考导航栏 Navigation Bar。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/navigation-bar/tt-set-navigation-bar-color",
+      "第1列": "tt.setNavigationBarColor​",
+      "第2列": "设置导航栏颜色。​"
+    }
+  ],
+  "table51": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/menu/tt-get-custom-button-bounding-client-rect",
+      "第1列": "tt.getCustomButtonBoundingClientRect​",
+      "第2列": "获取自定义导航栏下不可改变的元素（比如左上角 logo/返回位置+ 右上角反馈+more+close）的位置信息。坐标信息以屏幕左上角为原点。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/menu/tt-get-menu-button-bounding-client-rect",
+      "第1列": "tt.getMenuButtonBoundingClientRect​",
+      "第2列": "获取菜单按钮（右上角胶囊按钮）的布局位置信息，不包括反馈按钮。坐标信息以屏幕左上角为原点。​"
+    }
+  ],
+  "table52": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/animation/tt-create-animation",
+      "第1列": "tt.createAnimation​",
+      "第2列": "创建一个动画实例 Animation。​"
+    }
+  ],
+  "table53": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/swipe-back/tt-set-swipe-back-mode",
+      "第1列": "tt.setSwipeBackMode​",
+      "第2列": "设置滑动返回的模式。​"
+    }
+  ],
+  "table54": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/drop-down-refresh/page-on-pull-down-refresh",
+      "第1列": "Page.onPullDownRefresh​",
+      "第2列": "在 Page 中注册下拉刷新的监听方法，当用户触发下拉刷新时会调用。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/drop-down-refresh/tt-start-pull-down-refresh",
+      "第1列": "tt.startPullDownRefresh​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/drop-down-refresh/tt-stop-pull-down-refresh",
+      "第2列": "下拉刷新，小程序会主动触发下拉刷新动画，直到调用 tt.stopPullDownRefresh 成功后停止，调用该方法与用户手动触发下拉刷新效果一致。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/drop-down-refresh/tt-stop-pull-down-refresh",
+      "第1列": "tt.stopPullDownRefresh​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/drop-down-refresh/tt-start-pull-down-refresh/",
+      "第2列": "停止当前页面下拉刷新。相关接口：tt.startPullDownRefresh。​"
+    }
+  ],
+  "table55": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-show-tab-bar-red-dot",
+      "第1列": "tt.showTabBarRedDot​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-hide-tab-bar-red-dot",
+      "第2列": "显示 tabBar 某一项的右上角的红点，可以使用底部标签栏红点给予用户提示。相关 API：tt.hideTabBarRedDot。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-show-tab-bar",
+      "第1列": "tt.showTabBar​",
+      "第2列": "显示 tabBar。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-set-tab-bar-style",
+      "第1列": "tt.setTabBarStyle​",
+      "第2列": "动态设置 tabBar 的整体样式。底部标签栏位于小程序底部，方便用户在不同功能模块之间进行快速切换。为保证可用性，底部导航栏承载 2-5 个功能，如果超出 5 个功能项，请酌情移入页面或菜单内。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-set-tab-bar-item",
+      "第1列": "tt.setTabBarItem​",
+      "第2列": "动态设置 tabBar 某一项的内容。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-set-tab-bar-badge",
+      "第1列": "tt.setTabBarBadge​",
+      "第2列": "为 tabBar 某一项的右上角添加文本，可以利用此功能进行提示。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-remove-tab-bar-badge",
+      "第1列": "tt.removeTabBarBadge​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-set-tab-bar-badge/",
+      "第2列": "移除 tabBar 某一项右上角的文本。相关 API：tt.setTabBarBadge。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-hide-tab-bar-red-dot",
+      "第1列": "tt.hideTabBarRedDot​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-show-tab-bar-red-dot",
+      "第2列": "隐藏 Tab 右上角的红点。相关 API：tt.showTabBarRedDot。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/interface/tab-bar/tt-hide-tab-bar",
+      "第1列": "tt.hideTabBar​",
+      "第2列": "隐藏 tabBar。​"
+    }
+  ],
+  "table56": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithm-managerget-algorithm-manager",
+      "第1列": "tt.getAlgorithmManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/introduction",
+      "第2列": "获取传入字段对应的算法管理器。非白名单合作用户仅支持 IDE 中「扫码体验」使用算法能力，不可在线上使用算法能力，合作事宜参见算法能力简介。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager",
+      "第1列": "AlgorithmManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager/",
+      "第2列": "AlgorithmManager 实例。可通过 tt.getAlgorithmManager  接口获取，可以通过该实例使用相应的算法能力，使用的算法与创建时传入的算法名称有关。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager.doExecute",
+      "第1列": "AlgorithmManager.doExecute​",
+      "第2列": "对输入的图像进行算法处理，获取所需算法结果数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithm-result/algorithm-result",
+      "第1列": "AlgorithmResult​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager.doExecute",
+      "第2列": "通过 AlgorithmManager.doExecute 获取的算法结果。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithm-result/face106result",
+      "第1列": "Face106AlgorithmResult​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager.doExecute",
+      "第2列": "通过 AlgorithmManager.doExecute 获取的算法结果。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithm-result/nail-result",
+      "第1列": "NailAlgorithmResult​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager.doExecute",
+      "第2列": "通过 AlgorithmManager.doExecute 获取的算法结果。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithm-result/skeleton-result",
+      "第1列": "SkeletonAlgorithmResult​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager.doExecute",
+      "第2列": "通过 AlgorithmManager.doExecute 获取的算法结果。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithm-result/foot-result",
+      "第1列": "FootAlgorithmResult​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager.doExecute",
+      "第2列": "通过 AlgorithmManager.doExecute 获取的算法结果。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithm-result/tracking-ar-result",
+      "第1列": "TrackingArAlgorithmResult​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager.doExecute",
+      "第2列": "通过 AlgorithmManager.doExecute 获取的算法结果。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithm-result/slamAlgorithmResult",
+      "第1列": "SlamAlgorithmResult​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/algorithm-manageralgorithm-manager/algorithmmanager/algorithm-manager.doExecute",
+      "第2列": "通过 AlgorithmManager.doExecute 获取的算法结果。​"
+    }
+  ],
+  "table57": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/create-sticker-manager",
+      "第1列": "tt.createStickerManager​",
+      "第2列": "获取传入贴纸 ID 对应的算法管理器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-manager/sticker-manager",
+      "第1列": "StickerManager​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/create-sticker-manager",
+      "第2列": "通过 tt.createStickerManager 获取的贴纸管理器实例，能够管理贴纸资源加载。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-manager/sticker-manager-onerror",
+      "第1列": "StickerManager.onError​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-manager/sticker-manager",
+      "第2列": "设置当前 StickerManager 的加载失败回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-manager/sticker-manager-onload",
+      "第1列": "StickerManager.onLoad​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-manager/sticker-manager",
+      "第2列": "设置当前 StickerManager 的加载成功回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-manager/sticker-manager-load",
+      "第1列": "StickerManager.load​",
+      "第2列": "加载对应传入 ID 的贴纸。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-processor/sticker-processor",
+      "第1列": "StickerProcessor​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-manager/sticker-manager-onload",
+      "第2列": "通过 StickerManager 的 onLoad 回调获取的算法处理器。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/effect-sticker/sticker-processor/paint-to-texture",
+      "第1列": "StickerProcessor.paintToTexture​",
+      "第2列": "将输入的图像纹理经过贴纸处理后绘制到输出图像纹理上。​"
+    }
+  ],
+  "table58": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/create-bytenn-engine-context",
+      "第1列": "tt.createBytennEngineContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/bytenn-engine/bytenn-engine",
+      "第2列": "创建并返回 BytennEngineContext 神经网络管理器，可通过该对象加载 BytennEngine 神经网络引擎。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/bytenn-engine-context/bytenn-engine-context",
+      "第1列": "BytennEngineContext​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/create-bytenn-engine-context",
+      "第2列": "BytennEngineContext 实例。可以通过 tt.createBytennEngineContext 获取。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/bytenn-engine-context/bytenn-engine-context-load",
+      "第1列": "BytennEngineContext.load​",
+      "第2列": "加载配置好的神经网络引擎。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/bytenn-engine-context/bytenn-engine-context-onError",
+      "第1列": "BytennEngineContext.onError​",
+      "第2列": "设置当前 context 的加载失败回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/bytenn-engine-context/bytenn-engine-context-onload",
+      "第1列": "BytennEngineContext.onLoad​",
+      "第2列": "设置当前 context 的加载成功回调。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/bytenn-engine/bytenn-engine",
+      "第1列": "BytennEngine​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/bytenn-engine-context/bytenn-engine-context-onload",
+      "第2列": "BytennEngine 实例。可通过 tt.createBytennEngineContex 的 onLoad 回调获取，内部网络结构和传入的网络名称有关。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ai-ar/native-neural-network/bytenn-engine/bytenn-engine-infer",
+      "第1列": "BytennEngine.inferSync​",
+      "第2列": "使用神经网络对输入数据进行推理。​"
+    }
+  ],
+  "table59": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/navigation/tt-navigate-to",
+      "第1列": "tt.navigateTo​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/navigation/tt-navigate-back",
+      "第2列": "保留当前页面，跳转到应用内的某个页面，但是不能跳转到 tabBar 页面，使用 tt.navigateBack 可以返回到原页面。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/navigation/tt-redirect-to",
+      "第1列": "tt.redirectTo​",
+      "第2列": "关闭当前页面，跳转到应用内的某个页面，不能跳转到 tabBar 页面。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/navigation/tt-switch-tab",
+      "第1列": "tt.switchTab​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/basic-reference/general-configuration",
+      "第2列": "跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面，目标 tabBar 页面需要在 app.json 中定义。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/navigation/tt-navigate-back",
+      "第1列": "tt.navigateBack​",
+      "第2列": "关闭当前页面，返回上一页面或多级页面。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/navigation/tt-re-launch",
+      "第1列": "tt.reLaunch​",
+      "第2列": "关闭所有页面，打开应用内的某个页面。​"
+    }
+  ],
+  "table60": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/retweet/share-option",
+      "第1列": "ShareOption​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/framework/logic-layer/start-page",
+      "第2列": "传给 Page.onShareAppMessage 回调函数的参数。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/retweet/share-param",
+      "第1列": "ShareParam​",
+      "第2列": "开发者最终传递给发布器的数据，可以根据约定传入部分自定义数据。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/retweet/tt-show-share-menu",
+      "第1列": "tt.showShareMenu​",
+      "第2列": "显示当前小程序页面的转发按钮。转发按钮位于小程序页面右上角的“更多”中。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/retweet/tt-hide-share-menu",
+      "第1列": "tt.hideShareMenu​",
+      "第2列": "​\n隐藏当前小程序页面的转发按钮。转发按钮位于小程序页面右上角的“更多”中。​"
+    }
+  ],
+  "table61": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/third-party-platform/tt-get-ext-config",
+      "第1列": "tt.getExtConfig​",
+      "第2列": "获取第三方平台自定义的数据字段。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/third-party-platform/tt-get-ext-config-sync",
+      "第1列": "tt.getExtConfigSync​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/third-party-platform/tt-get-ext-config/",
+      "第2列": "获取第三方平台自定义的数据字段。tt.getExtConfig 的同步版本。​"
+    }
+  ],
+  "table62": [
+    {
+      "第1列": "API​",
+      "第2列": "描述​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/tt-create-selector-query",
+      "第1列": "tt.createSelectorQuery​",
+      "第2列": "返回一个 SelectorQuery 的实例，该实例上有 select、 selectViewport 等方法用于选择页面节点或显示区域。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/selector-query/selector-query",
+      "第1列": "SelectorQuery​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/tt-create-selector-query/",
+      "第2列": "通过 tt.createSelectorQuery 获取的实例，用于查询页面节点及显示区域的信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/selector-query/selector-query-in",
+      "第1列": "SelectorQuery.in​",
+      "API描述链接1": "http://selectorquery.in/",
+      "第2列": "将节点的选取范围更改为指定的自定义组件内。未使用 SelectorQuery.in 的场景下，并不会选取任何自定义组件内的节点。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/selector-query/selector-query-select",
+      "第1列": "SelectorQuery.select​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/nodesref/nodesref",
+      "第2列": "在当前页面或自定义组件中选择第一个匹配选择器的节点，返回一个 NodesRef 对象实例，可以用于获取节点信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/selector-query/selector-query-select-all",
+      "第1列": "SelectorQuery.selectAll​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/nodesref/nodesref",
+      "第2列": "在当前页面或自定义组件中选择所有匹配选择器的节点，返回一个 NodesRef 对象实例，可以用于获取节点信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/selector-query/selector-query-select-viewport",
+      "第1列": "SelectorQuery.selectViewport​",
+      "第2列": "选择显示区域。可用于获取显示区域的尺寸、滚动位置等信息。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/selector-query/selector-query-exec",
+      "第1列": "SelectorQuery.exec​",
+      "第2列": "执行所有的查询。查询结果按次序构成数组，在 callback 的第一个参数中返回。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/tt-create-intersection-observer",
+      "第1列": "tt.createIntersectionObserver​",
+      "API描述链接1": "https://developer.mozilla.org/zh-CN/docs/Web/API/Intersection_Observer_API",
+      "第2列": "本方法创建并返回一个 IntersectionObserver 对象实例，使用方法类似于浏览器中的 Intersection Observer API。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/nodesref/nodesref",
+      "第1列": "NodesRef​",
+      "第2列": "用于获取 TTML 节点信息的类。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/nodesref/nodesref-bounding-client-rect",
+      "第1列": "NodesRef.boundingClientRect​",
+      "第2列": "添加节点的布局位置的查询请求。查询结果相对于显示区域，以像素为单位。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/nodesref/nodesref-scroll-offset",
+      "第1列": "NodesRef.scrollOffset​",
+      "第2列": "添加节点的滚动位置的查询请求，以像素为单位。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/nodesref/nodesref-filelds",
+      "第1列": "NodesRef.fields​",
+      "第2列": "添加节点的相关信息的查询，在 fields 中指定需要获取的字段。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/nodesref/nodesref-node",
+      "第1列": "NodesRef.node​",
+      "第2列": "获取 Node 节点实例。目前仅支持 Canvas 的获取。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/intersection-observer/intersection-observer",
+      "第1列": "IntersectionObserver​",
+      "第2列": "IntersectionObserver 对象，用于推断某些节点是否可以被用户看见、有多大比例可以被用户看见。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/intersection-observer/intersection-observer-relative-to",
+      "第1列": "IntersectionObserver.relativeTo​",
+      "第2列": "使用选择器指定一个节点，作为参照区域之一。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/intersection-observer/intersection-observer-relative-to-viewport",
+      "第1列": "IntersectionObserver.relativeToViewport​",
+      "第2列": "指定页面显示区域作为参照区域之一。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/intersection-observer/intersection-observer-observe",
+      "第1列": "IntersectionObserver.observe​",
+      "第2列": "指定目标节点并开始监听目标节点和参照区域相交状态的变化情况。​"
+    },
+    {
+      "API详情链接": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/intersection-observer/intersection-observer-disconnect",
+      "第1列": "IntersectionObserver.disconnect​",
+      "API描述链接1": "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/api/ttml/intersection-observer/intersection-observer-observe",
+      "第2列": "停止监听，通过 IntersectionObserver.observe 方法注册的回调函数将不再触发。​"
+    }
+  ]
+}
